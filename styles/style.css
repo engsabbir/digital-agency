@@ -64,6 +64,91 @@ button{
     color: white;
     border: none;
 }
+
 /* section style */
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../asset/image/footer-bg.png'), linear-gradient(90deg,rgb(53, 52, 52), rgb(116, 114, 114));
+    height: 100vh;
+    padding: 0 50px;
+}
+.service-column{
+    width: 50%;
+}
+.service-info{
+    color: white;
+    /* padding-left: 100px; */
+}
+.service-list-btn{
+    color: black;
+    padding: 10px 35px;
+    background-color: white;
+    border-radius: 15px;
+}
+.service-info h1{
+    font-size: 55px;
+}
+
+.service-list{
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.service-list li{
+    list-style: number;
+    margin-bottom: 5px;
+}
+.director-details{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.director-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.director-info img{
+    border-radius: 50%;
+}
+.director-info h4{
+    margin-bottom: 0;
+}
+.director-info p{
+    margin-top: 0;
+}
+.director-details-btn{
+    border-left: 3px solid red;
+    padding: 10px;
+}
+.director-details-btn button{
+    color: black;
+    padding: 10px 15px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.service-img{
+    margin: auto;
+    padding-left: 100px;
+    text-align: center;
+}
+.service-first-part, .service-second-part{
+    display: flex;
+}
+.service-part{
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px 25px;
+}
+.service-part img{
+    height: 200px;
+    width: 220px;
+}
 /* section style */
 /* section style */
